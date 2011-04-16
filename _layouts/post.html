@@ -6,12 +6,15 @@ layout: default
   {{ content }}
 </div>
 <hr />
-<div class="boastful">
+<div id="boastful">
   
 </div>
+<a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="denbuzze">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.js"></script>
 <script>window.jQuery || document.write("<script src='/js/jquery-1.5.1.min.js'>\x3C/script>")</script>
 
 <script src="https://github.com/christianv/boastful/raw/master/jquery.boastful.js"></script>
-<script>$(".boastful").boastful();</script>
+<script>$("#boastful").boastful({
+  empty_message: ""
+});</script>
