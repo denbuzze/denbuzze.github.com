@@ -43,9 +43,9 @@ ul {list-style-type: none;}
 .vcard ul li a:hover, .vcard ul li a:focus {-webkit-transition: opacity 0.3s ease-out;-moz-transition: opacity 0.3s ease-out;transition: opacity 0.3s ease-out;
 text-indent: 0;
 opacity: 1;}
-.vcard ul li .github {background-image: url("http://www.google.com/s2/u/0/favicons?domain=github.com");}
-.vcard ul li .twitter {background-image: url("http://www.google.com/s2/u/0/favicons?domain=twitter.com");}
-.vcard ul li .linkedin {background-image: url("http://www.google.com/s2/u/0/favicons?domain=linkedin.com");}
+.vcard ul li .github {background-image: url("http://www.google.com/s2/u/0/favicons?domain=www.github.com");}
+.vcard ul li .twitter {background-image: url("http://www.google.com/s2/u/0/favicons?domain=www.twitter.com");}
+.vcard ul li .linkedin {background-image: url("http://www.google.com/s2/u/0/favicons?domain=www.linkedin.com");}
 
 @media screen and (max-device-width: 480px) {
   h1 {line-height: 1.2em;}
