@@ -43,9 +43,6 @@ ul {list-style-type: none;}
 .vcard ul li a:hover, .vcard ul li a:focus {-webkit-transition: opacity 0.3s ease-out;-moz-transition: opacity 0.3s ease-out;transition: opacity 0.3s ease-out;
 text-indent: 0;
 opacity: 1;}
-.vcard ul li .github {background-image: url("http://g.etfv.co/https://www.github.com");}
-.vcard ul li .twitter {background-image: url("http://g.etfv.co/http://www.twitter.com");}
-.vcard ul li .linkedin {background-image: url("http://g.etfv.co/http://www.linkedin.com");}
 
 @media screen and (max-device-width: 480px) {
   h1 {line-height: 1.2em;}
@@ -55,9 +52,9 @@ opacity: 1;}
   .vcard .pic {background-image: url("http://www.gravatar.com/avatar/7ef7ea08be8b62f753c64405f23aa520.jpg?s=200"); width: 200px; height:120px; float:left;text-indent: 0;padding: 220px 10px 0; font-size: 45px;}
   .vcard ul {margin-top: 10px; float: right;}
   .vcard ul li a {opacity: 1; width: 80px;height:80px;text-indent: 0; font-size: 45px; padding: 25px 120px 0;}
-  .vcard ul li .github {background-image: url("/img/github_small.png");}
-  .vcard ul li .twitter {background-image: url("/img/twitter_small.png");}
-  .vcard ul li .linkedin {background-image: url("/img/linkedin_small.png");}
+  .vcard ul li .github {background-image: url("/img/github_small.png") !important;}
+  .vcard ul li .twitter {background-image: url("/img/twitter_small.png") !important;}
+  .vcard ul li .linkedin {background-image: url("/img/linkedin_small.png") !important;}
 }
 
 /* Print styles */
