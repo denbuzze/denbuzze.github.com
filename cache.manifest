@@ -16,7 +16,8 @@ http://g.etfv.co/http://be.linkedin.com/in/christianvuerings
 http://g.etfv.co/http://github.com/christianv
 http://g.etfv.co/http://twitter.com/denbuzze
 http://fonts.googleapis.com/css?family=Cabin+Sketch:bold
-https://github.com/christianv/jquery-favicons/raw/master/jquery.favicons.js
+http://github.com/christianv/jquery-favicons/raw/master/jquery.favicons.js
+http://github.com/christianv/boastful/raw/master/jquery.boastful.js
 {% for post in site.posts %}{{ post.id }}/
 {% endfor %}
 NETWORK:
