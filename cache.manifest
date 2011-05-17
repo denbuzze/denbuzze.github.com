@@ -12,5 +12,6 @@ CACHE MANIFEST
 /img/twitter_small.png
 {% for post in site.posts %}{{ post.id }}/
 {% endfor %}
+
 NETWORK
 *
