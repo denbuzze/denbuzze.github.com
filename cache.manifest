@@ -4,7 +4,8 @@ layout: nil
 CACHE MANIFEST
 # rev {{ site.time | date_to_xmlschema }}
 /index.html
-{% for post in site.posts %}{{ post.id }}.html{% endfor %}
+{% for post in site.posts %}{{ post.id }}.html
+{% endfor %}
 /css/main.css
 /css/syntax.css
 /favicon.ico
