@@ -10,6 +10,7 @@ CACHE MANIFEST
 /img/github_small.png
 /img/linkedin_small.png
 /img/twitter_small.png
+http://www.gravatar.com/avatar/7ef7ea08be8b62f753c64405f23aa520.jpg?s=80
 {% for post in site.posts %}{{ post.id }}/
 {% endfor %}
 NETWORK:
