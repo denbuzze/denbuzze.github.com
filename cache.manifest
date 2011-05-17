@@ -13,5 +13,5 @@ CACHE MANIFEST
 {% for post in site.posts %}{{ post.id }}/index.html
 {% endfor %}
 
-NETWORK
+NETWORK:
 *
