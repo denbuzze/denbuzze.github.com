@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" manifest="/cache.manifest">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="author" content="Christian Vuerings">
@@ -8,48 +8,29 @@
 
   <link rel="alternate" type="application/rss+xml" href="http://feeds.feedburner.com/denbuzze">
   <link rel="stylesheet" type="text/css" href="/css/main.css" title="Main CSS">
-  <link rel='stylesheet' type='text/css' href="http://fonts.googleapis.com/css?family=Cabin+Sketch:bold">
   <link rel="profile" href="http://microformats.org/profile/hcard">
 
   <title>{{ page.title }} &raquo; Christian Vuerings</title>
 
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
-  <script>!window.jQuery && document.write('<script src="http://code.jquery.com/jquery-1.6.1.min.js"><\/script>');</script>
-
-  <script type="text/javascript">
-
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-190225-7']);
-    _gaq.push(['_trackPageview']);
-
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-
-  </script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.1.min.js">\x3C/script>')</script>
 </head>
 <body>
 
-  <div class="vcard">
-    <h2 class="visuallyhidden">Contact Details</h2>
-    <a class="fn pic ir" href="/" title="Return to the home page">Christian Vuerings</a>
-    <p class="nickname visuallyhidden" title="The nickname of Christian Vuerings">denbuzze</p>
-    <ul>
-      <li><a class="url twitter ir" href="http://twitter.com/denbuzze" title="Visit his twitter page">Twitter</a></li>
-      <li><a class="url github ir" href="http://github.com/christianv" title="Have a peek at his github repositories">Github</a></li>
-      <li><a class="url linkedin ir" href="http://be.linkedin.com/in/christianvuerings" title="Concact Christian for business enquiries">LinkedIn</a></li>
-    </ul>
-  </div>
+  {% include header.html %}
 
   <div class="content">
-    <h2 class="visuallyhidden">Blog Posts</h2>
     {{ content }}
   </div>
 
-  <script src="https://github.com/christianv/jquery-favicons/raw/master/jquery.favicons.js" type="text/javascript" charset="utf-8"></script>
-  <script>$('.vcard li a').favicons();</script>
+  {% include footer.html %}
+
+  <script>
+    var _gaq=[['_setAccount','UA-190225-7'],['_trackPageview'],['_trackPageLoadTime']];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
+    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+  </script>
 
 </body>
 </html>
