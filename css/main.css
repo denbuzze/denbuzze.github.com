@@ -84,11 +84,11 @@ ul {list-style-type: none;}
 #header a, #footer a {color: #fff;}
 
 /* content */
-.content {padding: 1.3em; line-height: 1.8em;width:auto; max-width: 600px;}
-.content p {font-size: 1.1em;}
+.content {padding: 1.3em; line-height: 1.8em;width:auto; max-width: 550px;}
 
 /* post */
 .post .date {color: #999;font-size:0.8em;}
+.post ul, .post li {margin: 1.2em 0 1.2em 2.3em;}
 
 /* posts */
 .posts {margin: 0.4em 0 1.2em 0;}
