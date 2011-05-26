@@ -6,4 +6,6 @@ layout: default
   {{ content }}
 </div>
 
-<a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="denbuzze">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+<div class="twitterbutton ir">
+  <a href="http://twitter.com/share?original_referer={{ site.url }}{{ page.url }}&amp;url={{ site.url }}{{ page.url }}&amp;text={{ page.title }}&amp;via=denbuzze" target="_blank">Tweet</a>
+</div>
