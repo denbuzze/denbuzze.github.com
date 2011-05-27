@@ -1,0 +1,3 @@
+[submodule "assets/lifestream"]
+	path = assets/lifestream
+	url = git://github.com/christianv/jquery-lifestream.git

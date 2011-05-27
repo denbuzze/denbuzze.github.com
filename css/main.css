@@ -58,7 +58,6 @@ ul {list-style-type: none;}
   background-color: #534741;
   background: -moz-linear-gradient(#736357, #534741); /* FF 3.6+ */
   background: -ms-linear-gradient(#736357, #534741); /* IE10 */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #736357), color-stop(100%, #534741)); /* Safari 4+, Chrome 2+ */
   background: -webkit-linear-gradient(#736357, #534741); /* Safari 5.1+, Chrome 10+ */
   background: -o-linear-gradient(#736357, #534741); /* Opera 11.10 */
   background: linear-gradient(#736357, #534741); /* the standard */
@@ -109,14 +108,14 @@ ul {list-style-type: none;}
   background-repeat: no-repeat;
   background-position: left center;
 }
-#lifestream .lifestream-delicious { background-image: url("https://github.com/christianv/jquery-lifestream/raw/master/images/delicious_color.gif"); }
-#lifestream .lifestream-flickr { background-image: url("https://github.com/christianv/jquery-lifestream/raw/master/images/flickr_color_white.png"); }
-#lifestream .lifestream-github { background-image: url("https://github.com/christianv/jquery-lifestream/raw/master/images/github_text_color.png"); }
-#lifestream .lifestream-googlereader { background-image: url("https://github.com/christianv/jquery-lifestream/raw/master/images/googlereader_color.png"); }
-#lifestream .lifestream-lastfm { background-image: url("https://github.com/christianv/jquery-lifestream/raw/master/images/lastfm_color.png"); }
-#lifestream .lifestream-stackoverflow { background-image: url("https://github.com/christianv/jquery-lifestream/raw/master/images/stackoverflow_color.png"); }
-#lifestream .lifestream-twitter { background-image: url("https://github.com/christianv/jquery-lifestream/raw/master/images/twitter_text.png"); }
-#lifestream .lifestream-youtube { background-image: url("https://github.com/christianv/jquery-lifestream/raw/master/images/youtube_text.png"); }
+.lifestream-delicious { background-image: url("/assets/lifestream/images/delicious_color.png"); }
+.lifestream-flickr { background-image: url("/assets/lifestream/images/flickr_color_white.png"); }
+.lifestream-github { background-image: url("/assets/lifestream/images/github_text_color.png"); }
+.lifestream-googlereader { background-image: url("/assets/lifestream/images/googlereader_color.png"); }
+.lifestream-lastfm { background-image: url("/assets/lifestream/images/lastfm_color.png"); }
+.lifestream-stackoverflow { background-image: url("/assets/lifestream/images/stackoverflow_color.png"); }
+.lifestream-twitter { background-image: url("/assets/lifestream/images/twitter_text.png"); }
+.lifestream-youtube { background-image: url("/assets/lifestream/images/youtube_text.png"); }
 
 /* footer */
 #footer ul {
@@ -133,14 +132,14 @@ ul {list-style-type: none;}
   height: 70px;
   width:90px;
 }
-#footer ul .twitter a:hover {background-position:0 -70px;}
-#footer ul .twitter a:active {background-position:0 -140px;}
-#footer ul .github a {background-position: -90px 0;}
-#footer ul .github a:hover {background-position: -90px -70px;}
-#footer ul .github a:active {background-position: -90px -140px;}
-#footer ul .linkedin a {background-position: -180px 0;}
-#footer ul .linkedin a:hover {background-position: -180px -70px;}
-#footer ul .linkedin a:active {background-position: -180px -140px;}
+#footer .twitter a:hover {background-position:0 -70px;}
+#footer .twitter a:active {background-position:0 -140px;}
+#footer .github a {background-position: -90px 0;}
+#footer .github a:hover {background-position: -90px -70px;}
+#footer .github a:active {background-position: -90px -140px;}
+#footer .linkedin a {background-position: -180px 0;}
+#footer .linkedin a:hover {background-position: -180px -70px;}
+#footer .linkedin a:active {background-position: -180px -140px;}
 
 /* Highlight styles */
 .highlight {
