@@ -66,7 +66,6 @@ ul {list-style-type: none;}
   -webkit-box-shadow: inset 0px 0px 8px #333;
   box-shadow: inset 0px 0px 8px #333;
 
-  overflow: hidden;
   padding: 0.2em 1.3em;
   width: auto;
 }
@@ -102,6 +101,7 @@ ul {list-style-type: none;}
   font-size:0.8em;
   line-height: 1.2em;
   margin: 0.9em 0 0.4em 0;
+  overflow: auto;
 }
 #lifestream li {
   padding: 0.4em 0.25em 0.4em 1.9em;
@@ -215,3 +215,9 @@ ul {list-style-type: none;}
 .highlight .vg { color: #f8f8f2 } /* Name.Variable.Global */
 .highlight .vi { color: #f8f8f2 } /* Name.Variable.Instance */
 .highlight .il { color: #ae81ff } /* Literal.Number.Integer.Long */
+
+@media (max-width:655px) {
+  .highlight {
+    overflow: auto;
+  }
+}
