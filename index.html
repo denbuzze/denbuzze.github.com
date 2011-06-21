@@ -15,43 +15,16 @@ title: "Home"
 <h2>lifestream</h2>
 <div id="lifestream">&nbsp;</div>
 
-<script src="http://christianv.github.com/jquery-lifestream/jquery.lifestream.js"></script>
+<script src="http://christianv.github.com/jquery-lifestream/jquery.lifestream-compiled.js"></script>
 <script>
-  $("#lifestream").lifestream({
-    "limit": 20,
-    "list":[
-      {
-        "service": "delicious",
-        "user": "denbuzze"
-      },
-      {
-        "service": "flickr",
-        "user": "60378309@N02"
-      },
-      {
-        "service": "googlereader",
-        "user": "16243859758547797209"
-      },
-      {
-        "service": "github",
-        "user": "christianv"
-      },
-      {
-        "service": "lastfm",
-        "user": "denbuzze"
-      },
-      {
-        "service": "stackoverflow",
-        "user": "117193"
-      },
-      {
-        "service": "twitter",
-        "user": "denbuzze"
-      },
-      {
-        "service": "youtube",
-        "user": "denbuzze"
-      }
-    ]
-  });
+$("#lifestream").lifestream({"limit":20,"list":[
+  {"service":"delicious","user":"denbuzze"},
+  {"service":"flickr","user":"60378309@N02"},
+  {"service":"googlereader","user":"16243859758547797209"},
+  {"service":"github","user":"christianv"},
+  {"service":"lastfm","user":"denbuzze"},
+  {"service":"stackoverflow","user":"117193"},
+  {"service":"twitter","user":"denbuzze"},
+  {"service":"vimeo","user":"denbuzze"},
+  {"service":"youtube","user":"denbuzze"}]});
 </script>
