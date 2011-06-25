@@ -37,7 +37,7 @@ h1,h2,h3,h4 {font-weight:bold;}
 body{color:#444;background:#fff;font: 100%/1.5 Georgia, serif;-webkit-font-smoothing: antialiased;}
 
 a {color: #A67C52;text-decoration:none;}
-a:hover {color: #38302c;text-decoration: underline;}
+a:hover, a:focus {color: #38302c;text-decoration: underline;}
 p {margin: 1.2em 0;}
 h1 {font-size: 1.563em; font-family: "SansationBold", Arial, serif;}
 h1 .light {font-family: "SansationLight", Arial, serif; font-weight:normal;}
@@ -90,7 +90,7 @@ blockquote { font-style: italic; padding: 0 3em; }
   height: 20px;
   width: 55px;
 }
-.twitterbutton a:hover {background-position:0 -20px;}
+.twitterbutton a:hover, .twitterbutton a:focus {background-position:0 -20px;}
 .twitterbutton a:active {background-position:0 -40px;}
 
 /* posts */
