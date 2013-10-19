@@ -5,7 +5,7 @@ tags:
 - development
 ---
 
-As a sailing instructor it’s important to know as much information about the weather as possible. You need to be able to see how much wind there’s going to be, the height of the waves, the tides, if any storm is approaching, …
+As a sailing instructor it's important to know as much information about the weather as possible. You need to be able to see how much wind there's going to be, the height of the waves, the tides, if any storm is approaching, …
 
 If you do this yourself, you usually have to check several websites. Each website has its advantages and disadvantages. Some are good in predicting the wind, others contain information about tides.
 
@@ -23,6 +23,6 @@ Currently you can see the following:
 * Very good [wind prediction](http://www.windfinder.com/).
 * UV emission prediction, sailing rating and wind information from [meteovista](http://www.meteovista.be/).
 
-The background image you’re seeing is randomly generated. It looks at the current weather condition (e.g. cloudy) adds a sea-like term (e.g. beach) and performs a search on [flickr](http://www.flickr.com/). If doesn’t find anything, a grey background is shown.
+The background image you're seeing is randomly generated. It looks at the current weather condition (e.g. cloudy) adds a sea-like term (e.g. beach) and performs a search on [flickr](http://www.flickr.com/). If doesn't find anything, a grey background is shown.
 
-Hopefully some of you like it and maybe you’ll be able to use it the next time you jump on boat.
+Hopefully some of you like it and maybe you'll be able to use it the next time you jump on boat.

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Loading everything at once - HTML, CSS & JavaScript
+title: Loading Everything At Once - HTML, CSS & JavaScript
 tags:
 - development
 ---
@@ -13,7 +13,7 @@ It felt like quite a big challenge and I wondered if it would be possible from a
 
 ### What we need from the back-end
 
-In Nakamura (the Sakai3 back-end) we are using [Apache Sling](http://sling.apache.org/site/index.html) in combination with [Apache Jackrabbit](http://jackrabbit.apache.org/). Which means that when we go to a URL like twitter.2.json we get information back about the structure of it’s contents:
+In Nakamura (the Sakai3 back-end) we are using [Apache Sling](http://sling.apache.org/site/index.html) in combination with [Apache Jackrabbit](http://jackrabbit.apache.org/). Which means that when we go to a URL like twitter.2.json we get information back about the structure of it's contents:
 
 
 {% highlight javascript %}
@@ -99,12 +99,12 @@ Before I send a request to the back-end to have this feature enabled, I want to 
 
 Basically a Sakai3 page process looks like this:
 
-1. Load a sakai3 page with all it’s resources (HTML / CSS / JavaScript / Images)
+1. Load a Sakai3 page with all it's resources (HTML / CSS / JavaScript / Images)
 2. When this page is loaded, load all the widgets you embedded on that page.
 
 The Sakai3 widget process goes a bit deeper:
 
-1. For each widget type, send one GET request to it’s path. (e.g. devwidgets/twitter.3.json)
+1. For each widget type, send one GET request to it's path. (e.g. devwidgets/twitter.3.json)
 2. Run over all the properties in that file and divide it into 3 sections: HTML / CSS and JavaScript.
 3. Save those 3 sections in separate objects / arrays in the JavaScript memory.
 4. Remove the original &lt;link&gt; and &lt;script&gt; tags from the widget HTML.
@@ -122,9 +122,9 @@ vs.
 
 Too be honest I got everything working quite fast (+/- 1,5 hour) but it took a bit longer to make everything cross-browser. Especially the last part, loading the JavaScript and CSS dynamically.
 
-I knew jQuery just recently added the [$.getScript](http://api.jquery.com/jQuery.getScript/) but that added an extra Ajax call which I wanted to avoid in the first place. After lurking through the jQuery api and [source code](http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.js), I found out that the [$.globalEval](http://api.jquery.com/jQuery.globalEval/) function did exactly what I wanted for the JavaScript part.
+I knew jQuery just recently added the [$.getScript](http://api.jquery.com/jQuery.getScript/) but that added an extra Ajax call which I wanted to avoid in the first place. After lurking through the jQuery API and [source code](http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.js), I found out that the [$.globalEval](http://api.jquery.com/jQuery.globalEval/) function did exactly what I wanted for the JavaScript part.
 
-Maybe I didn’t look well enough, but I actually couldn’t find any native jQuery method that would load the CSS dynamically. So I wrote something that is heavily based on [a post](http://www.phpied.com/dynamic-script-and-style-elements-in-ie/) by [Stoyan Stephanov](http://www.phpied.com/):
+Maybe I didn't look well enough, but I actually couldn't find any native jQuery method that would load the CSS dynamically. So I wrote something that is heavily based on [a post](http://www.phpied.com/dynamic-script-and-style-elements-in-ie/) by [Stoyan Stephanov](http://www.phpied.com/):
 
 {% highlight javascript %}
 var head = document.getElementsByTagName('head').item(0);

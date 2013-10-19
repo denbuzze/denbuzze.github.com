@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Managing an open-source project
+title: Managing An Open-source Project
 tags:
 - development
 ---
@@ -13,8 +13,7 @@ We worry about the fact that we spam and people won't be interested.
 
 But if you don't let other people know what you're up to and show them how passionate you are, how will they ever want to join your project?
 
-Open-source is all about collaboration, 
-Which in the end allows your project to adapt and improve.
+Open-source is all about collaboration, which in the end allows your project to adapt and improve.
 And that's what really matters in the end.
 
 ###Be clear about your goals

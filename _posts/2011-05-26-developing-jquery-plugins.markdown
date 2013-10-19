@@ -8,7 +8,7 @@ Lately I've been developing jQuery plug-ins in my spare time. Definitely
 go and check out
 the [example](http://christianv.github.com/jquery-lifestream/example.html)
 [pages](http://christianv.github.com/jquery-favicons/example.html).
-One of the main reasons for doing this is to get a grip of the latest api 
+One of the main reasons for doing this is to get a grip of the latest API 
 changes in jQuery.
 
 ###Plug-ins
@@ -30,7 +30,7 @@ $('a')
 {% endhighlight %}
 
 * __Make it configurable__  
-Default options are OK, but make sure that people can modify the behaviour
+Default options are OK, but make sure that people can modify the behavior
 without changing the actual code of the plug-in.
 {% highlight javascript %}
 $("#lifestream").lifestream({
