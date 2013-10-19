@@ -2,4 +2,3 @@ markdown: rdiscount
 pygments: true
 permalink: /post/:title
 url: http://denbuzze.com
-auto: true
