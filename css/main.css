@@ -78,7 +78,7 @@ pre { overflow: auto; }
 .content {padding: 1.3em; line-height: 1.8em; max-width: 600px; width: auto}
 
 /* post */
-.post {margin-bottom: 1.2em;}
+.post {margin-bottom: 1.2em; word-wrap: break-word;}
 .post .date {color: #999;font-size:0.8em;}
 .post ul {list-style-type: disc;}
 .post ul, .post ol {margin: 1.2em 0 1.2em 2.3em;}
