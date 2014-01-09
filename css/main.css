@@ -47,6 +47,7 @@ h3 {font-size: 1.25em;}
 h4 {font-size: 1em;}
 ul {list-style-type: none;}
 blockquote { font-style: italic; padding: 0 3em; }
+pre { overflow: auto; }
 
 /* Useful classes */
 .ir { display: block;text-indent: -999em;overflow: hidden;background-repeat: no-repeat;text-align: left;direction: ltr;}
