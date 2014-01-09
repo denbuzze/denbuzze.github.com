@@ -54,11 +54,11 @@ However, connecting to LDAP with [ldapjs][ldapjs], a great LDAP library for Node
 
 As with any project, there are always improvements to be made:
 
-* **University API** - Having a RESTful API for this on [https://developer.berkeley.edu/](https://developer.berkeley.edu/).
+* **University API** - Having a RESTful API for this on [developer.berkeley.edu](https://developer.berkeley.edu/).
 * **Images** - Support for images. Already tried using [gravatar](http://gravatar.com) for this but almost no one at Berkeley has their email linked with the that service.
 * **Infinite scroll** - Currently it only shows 10 results per search.
 
-If you would like to make any changes yourself, feel free to make a pull request on [https://github.com/christianv/berkeleydir][code].
+If you would like to make any changes yourself, feel free to make a pull request on [christianv/berkeleydir][code].
 
 [angularjs]: http://angularjs.org/
 [berkeleydir]: http://berkeleydir.herokuapp.com/
