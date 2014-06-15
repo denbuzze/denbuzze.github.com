@@ -15,7 +15,7 @@ If you're using [GitHub](https://github.com/) and the command line, then [hub][h
 Have you ever wondered why you always have to add the complete URL when you're adding a git remote?
 
 {% highlight bash %}
-git remote add christianv git@github.com:christianv/dotfiles.git
+git remote add christianv https://github.com/christianv/dotfiles.git
 {% endhighlight %}
 
 With [hub][hub] this changes to
