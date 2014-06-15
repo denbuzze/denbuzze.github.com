@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My 2010 reflections
+title: My 2010 Reflections
 tags:
 - chat
 ---
