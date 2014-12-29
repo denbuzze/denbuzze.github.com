@@ -1,5 +1,4 @@
-# About
-
+# About [![Dependency Status](https://gemnasium.com/denbuzze/denbuzze.github.com.svg)](https://gemnasium.com/denbuzze/denbuzze.github.com)
 
 Source code of [http://denbuzze.com](http://denbuzze.com).
 
