@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Thanks Zach For The GitHub Love
+title: Thanks Zach for the GitHub Love
 tags:
 - chat
 ---

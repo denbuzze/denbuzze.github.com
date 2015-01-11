@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Importance Of Failing
+title: The Importance of Failing
 tags:
 - thoughts
 ---

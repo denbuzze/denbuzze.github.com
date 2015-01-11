@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Loading Everything At Once - HTML, CSS & JavaScript
+title: Loading Everything at Once - HTML, CSS & JavaScript
 tags:
 - development
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2011 Resolutions And Dreams
+title: 2011 Resolutions and Dreams
 tags:
 - chat
 ---

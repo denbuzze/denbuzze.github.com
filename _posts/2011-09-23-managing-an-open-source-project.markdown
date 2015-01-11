@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Managing An Open-source Project
+title: Managing an Open-source Project
 tags:
 - development
 ---

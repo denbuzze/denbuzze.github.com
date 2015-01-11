@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Fixing Security Preferences In OS X Mountain Lion
+title: Fixing Security Preferences in OS X Mountain Lion
 tags:
 - development
 ---
