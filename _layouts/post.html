@@ -7,5 +7,5 @@ layout: default
 </div>
 
 <div class="twitterbutton ir">
-  <a href="http://twitter.com/share?original_referer={{ site.url }}{{ page.url }}&amp;url={{ site.url }}{{ page.url }}&amp;text={{ page.title | xml_escape }}&amp;via=denbuzze" target="_blank">Tweet</a>
+  <a href="http://twitter.com/share?original_referer={{ site.url }}{{ page.url }}&amp;url={{ site.url }}{{ page.url }}&amp;text={{ page.title | replace: "&", "%26" }}&amp;via=denbuzze" target="_blank">Tweet</a>
 </div>
