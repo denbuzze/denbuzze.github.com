@@ -40,7 +40,7 @@ a {color: #A67C52;text-decoration:none;}
 a:hover, a:focus {color: #38302c;text-decoration: underline;}
 p {margin: 1.2em 0;}
 h1 {font-size: 1.563em; font-family: "SansationBold", Arial, serif;}
-h1 .light {font-family: "SansationLight", Arial, serif; font-weight:normal;}
+h1 .light { opacity: 0.3; }
 h2,h3,h4 {font-family: "TitilliumTextBold", Arial, serif;}
 h2 {font-size: 1.5em;}
 h3 {font-size: 1.25em; margin-top: 1em;}
@@ -69,7 +69,7 @@ pre { overflow: auto; }
   -webkit-box-shadow: inset 0 0 8px #333;
   box-shadow: inset 0 0 8px #333;
 
-  padding: 0.2em 1.3em;
+  padding: 0 1.3em;
   width: auto;
 }
 #header a, #footer a {color: #fff;}
