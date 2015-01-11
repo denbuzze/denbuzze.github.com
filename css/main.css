@@ -34,7 +34,7 @@ h1,h2,h3,h4 {font-weight:bold;}
     font-style: normal;
 }
 
-body{color:#444;background:#fff;font: 100%/1.5 Georgia, serif;-webkit-font-smoothing: antialiased;}
+body{color:#444;background:#fff;font: 120%/1.5 Georgia, serif;-webkit-font-smoothing: antialiased;}
 
 a {color: #A67C52;text-decoration:none;}
 a:hover, a:focus {color: #38302c;text-decoration: underline;}
@@ -75,7 +75,7 @@ pre { overflow: auto; }
 #header a, #footer a {color: #fff;}
 
 /* content */
-.content {padding: 1.3em; line-height: 1.8em; max-width: 600px; width: auto}
+.content {padding: 1.3em; line-height: 1.8em; max-width: 900px; width: auto}
 
 /* post */
 .post {margin-bottom: 1.2em; word-wrap: break-word;}
@@ -245,7 +245,7 @@ ul~.highlight {
 	}
 	#header h1, #footer ul {
 		margin: 0 auto;
-		max-width: 600px;
+		max-width: 900px;
 		width: auto;
 	}
 	h2 {
