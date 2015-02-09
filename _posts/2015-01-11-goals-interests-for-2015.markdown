@@ -11,14 +11,14 @@ The beginning of the year is always a good time to reflect on the past year and 
 
 * Complete a half marathon
 * Complete the Half Dome hike
-* Read 30 books (2.5 per month)
+* Read 30 books (2.5 per month) *(7/30 - [Progress](https://www.goodreads.com/user_challenges/2414299))*
 * Volunteer 1 hour every month
-* Give 2 presentations about something I'm passionate about
+* Give 2 presentations about something I'm passionate about &#10004; *(Accessibility & GulpJS presentation)*
 * 1 Date a month
 * 1 Lunch a month with someone I don't know that well
 * Introductory flight lesson
 * Introductory dance lesson
-* Introductory yoga class
+* Introductory yoga class &#10004; *(Feb 8, Yoga for the People, Berkeley)*
 
 ### Interests
 
