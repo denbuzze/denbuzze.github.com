@@ -13,9 +13,9 @@ The beginning of the year is always a good time to reflect on the past year and 
 * Introductory flight lesson
 * Introductory dance lesson
 * Volunteer 1 hour every month
-* Complete a half marathon *([Scheduled](http://runrocknroll.competitor.com/san-francisco) for March 29, 2015)*
-* Read 30 books (2.5 per month) *(8 of 30 - [Progress](https://www.goodreads.com/user_challenges/2414299))*
-* 1 Lunch a month with someone I don't know that well *(Jan / Feb)*
+* Read 30 books (2.5 per month) *(11 of 30 - [Progress](https://www.goodreads.com/user_challenges/2414299))*
+* 1 Lunch a month with someone I don't know that well *(Jan / Feb / Mar)*
+* ~~Complete a half marathon~~ &#10004; *([Finished in 2:03:18](http://running.competitor.com/cgiresults?eId=70&eiId=232&seId=806&pId=91970) on March 29, 2015)*
 * ~~Give 2 presentations about something I'm passionate about~~ &#10004; *Accessibility & GulpJS presentation*
 * ~~Introductory yoga class~~ &#10004; *Feb 8, Yoga for the People, Berkeley*
 * ~~1 Date a month until I meet someone~~ &#10004; *I've found her*
