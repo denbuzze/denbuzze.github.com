@@ -22,4 +22,4 @@ This stuck with me.
 
 Somewhere along the way some developers lost touch with their user base. It's good to remember why we're here as developers. We're here to create software that gives power to our users.
 
-Ultimately, it's not about the technology you're developing with. It's about the experience users have when they are interacting with your programs.
+Ultimately, it's not about the technology you're developing with; it's about the experience users have when they are interacting with your programs.
