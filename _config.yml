@@ -1,4 +1,4 @@
-markdown: rdiscount
+markdown: kramdown
 highlighter: pygments
 permalink: /post/:title
 url: http://denbuzze.com
